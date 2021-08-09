@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+>>>>>>> 2ca2738 (Init master - 10/08.2021)
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.annpb</groupId>
 	<artifactId>notepad</artifactId>
+<<<<<<< HEAD
 	<version>1.0.1-SNAPSHOT</version>
+=======
+	<version>1.0.0-SNAPSHOT</version>
+>>>>>>> 2ca2738 (Init master - 10/08.2021)
 	<packaging>jar</packaging>
 
 	<name>notepad</name>
@@ -27,9 +36,15 @@
 	</properties>
 
 	<scm>
+<<<<<<< HEAD
 		<connection>scm:git:git@github.com:phuongpham247/notepad.git</connection>
 		<developerConnection>scm:git:git@github.com:phuongpham247/notepad.git</developerConnection>
 		<url>scm:git:git@github.com:phuongpham247/notepad.git</url>
+=======
+		<connection>scm:git:git@bitbucket.org:annpb/notepad.git</connection>
+		<developerConnection>scm:git:git@bitbucket.org:annpb/notepad.git</developerConnection>
+		<url>scm:git:git@bitbucket.org:annpb/notepad.git</url>
+>>>>>>> 2ca2738 (Init master - 10/08.2021)
 		<tag>HEAD</tag>
 	</scm>
 
