@@ -10,7 +10,7 @@ The Notepad stores the notes in a MySQL instance, so it expects the MySQL databa
 
 Now, clone this repository and go into the notepad directory:
 
-`$ git clone https://bitbucket.org/annpb/notepad.git`
+`$ git clone https://github.com/phuongpham247/notepad.git`
 `$ cd notepad`
 
 Once you succesfully cloned the repository, start the application the jar artifact:
