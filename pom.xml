@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 =======
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 >>>>>>> 2ca2738 (Init master - 10/08.2021)
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+>>>>>>> e1a69a8 (Update pom.xml)
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.annpb</groupId>
 	<artifactId>notepad</artifactId>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<version>1.0.1-SNAPSHOT</version>
 =======
 	<version>1.0.0-SNAPSHOT</version>
 >>>>>>> 2ca2738 (Init master - 10/08.2021)
+=======
+	<version>1.0.1-SNAPSHOT</version>
+>>>>>>> e1a69a8 (Update pom.xml)
 	<packaging>jar</packaging>
 
 	<name>notepad</name>
@@ -37,6 +45,7 @@
 
 	<scm>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<connection>scm:git:git@github.com:phuongpham247/notepad.git</connection>
 		<developerConnection>scm:git:git@github.com:phuongpham247/notepad.git</developerConnection>
 		<url>scm:git:git@github.com:phuongpham247/notepad.git</url>
@@ -45,6 +54,11 @@
 		<developerConnection>scm:git:git@bitbucket.org:annpb/notepad.git</developerConnection>
 		<url>scm:git:git@bitbucket.org:annpb/notepad.git</url>
 >>>>>>> 2ca2738 (Init master - 10/08.2021)
+=======
+		<connection>scm:git:git@github.com:phuongpham247/notepad.git</connection>
+		<developerConnection>scm:git:git@github.com:phuongpham247/notepad.git</developerConnection>
+		<url>scm:git:git@github.com:phuongpham247/notepad.git</url>
+>>>>>>> e1a69a8 (Update pom.xml)
 		<tag>HEAD</tag>
 	</scm>
 
@@ -117,6 +131,20 @@
 			<id>acceptance-tests</id>
 			<build>
 				<plugins>
+					<plugin>
+						<groupId>org.springframework.boot</groupId>
+						<artifactId>spring-boot-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<goals>
+									<goal>repackage</goal>
+								</goals>
+								<configuration>
+									<skip>true</skip>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-surefire-plugin</artifactId>
