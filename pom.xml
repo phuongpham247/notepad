@@ -31,7 +31,6 @@
 		<developerConnection>scm:git:git@github.com:phuongpham247/notepad.git</developerConnection>
 		<url>scm:git:git@github.com:phuongpham247/notepad.git</url>
 		<tag>HEAD</tag>
-		<tag>notepad-1.0.0</tag>
 	</scm>
 
 	<distributionManagement>
