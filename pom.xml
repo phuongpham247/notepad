@@ -4,7 +4,7 @@
 
 	<groupId>com.annpb</groupId>
 	<artifactId>notepad</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>notepad</name>
@@ -31,6 +31,7 @@
 		<developerConnection>scm:git:git@github.com:phuongpham247/notepad.git</developerConnection>
 		<url>scm:git:git@github.com:phuongpham247/notepad.git</url>
 		<tag>HEAD</tag>
+		<tag>notepad-1.0.0</tag>
 	</scm>
 
 	<distributionManagement>
